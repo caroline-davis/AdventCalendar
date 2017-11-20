@@ -12,19 +12,29 @@ import UIKit
 class WindowVC: UIViewController {
     
     @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var videoTitle: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        getVideo(songURL: "80849482")
+        getVideo()
         
     }
     
-    func getVideo(songURL: String) {
+    func getVideo() {
         
-        let url = URL(string: "https://player.vimeo.com/video/\(songURL)")
-        webView.loadRequest(URLRequest(url: url!))
+        var songID: String
+        
+        for song in christmasSongs {
+            songID = song["songURL"]!
+            videoTitle.text = song["videoTitle"]!
+            
+            let url = URL(string: "https://player.vimeo.com/video/\(songID)")
+            webView.loadRequest(URLRequest(url: url!))
+
+        }
     }
+    
     
     
 }
