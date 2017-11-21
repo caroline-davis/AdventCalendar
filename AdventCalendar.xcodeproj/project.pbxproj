@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F15698141FC4F324000DE985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15698131FC4F324000DE985 /* Assets.xcassets */; };
 		F16BADC61FBE985F00CCC311 /* 04b_19.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16BADC51FBE985F00CCC311 /* 04b_19.ttf */; };
 		F16BADC81FBE9B3400CCC311 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16BADC71FBE9B3400CCC311 /* Window.swift */; };
 		F16D6DCA1FBE851400724281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D6DC91FBE851400724281 /* AppDelegate.swift */; };
 		F16D6DCC1FBE851400724281 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D6DCB1FBE851400724281 /* MainVC.swift */; };
 		F16D6DCF1FBE851400724281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16D6DCD1FBE851400724281 /* Main.storyboard */; };
-		F16D6DD11FBE851400724281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16D6DD01FBE851400724281 /* Assets.xcassets */; };
 		F16D6DD41FBE851400724281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16D6DD21FBE851400724281 /* LaunchScreen.storyboard */; };
 		F173ADF71FBEA10200EB8238 /* WindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173ADF61FBEA10200EB8238 /* WindowVC.swift */; };
 		F173ADF91FBEADED00EB8238 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173ADF81FBEADED00EB8238 /* Videos.swift */; };
@@ -20,13 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F15698131FC4F324000DE985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16BADC51FBE985F00CCC311 /* 04b_19.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04b_19.ttf; sourceTree = "<group>"; };
 		F16BADC71FBE9B3400CCC311 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		F16D6DC61FBE851400724281 /* AdventCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16D6DC91FBE851400724281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F16D6DCB1FBE851400724281 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		F16D6DCE1FBE851400724281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F16D6DD01FBE851400724281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16D6DD31FBE851400724281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16D6DD51FBE851400724281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F173ADF61FBEA10200EB8238 /* WindowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowVC.swift; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 				F16BADCB1FBE9B4300CCC311 /* Controller */,
 				F16D6DC91FBE851400724281 /* AppDelegate.swift */,
 				F16D6DCD1FBE851400724281 /* Main.storyboard */,
+				F15698131FC4F324000DE985 /* Assets.xcassets */,
 				F1A881531FC2A28C003E4DDD /* winterwonderland.mp3 */,
-				F16D6DD01FBE851400724281 /* Assets.xcassets */,
 				F16BADC51FBE985F00CCC311 /* 04b_19.ttf */,
 				F16D6DD21FBE851400724281 /* LaunchScreen.storyboard */,
 				F16D6DD51FBE851400724281 /* Info.plist */,
@@ -174,8 +174,8 @@
 				F1A881541FC2A28C003E4DDD /* winterwonderland.mp3 in Resources */,
 				F16D6DD41FBE851400724281 /* LaunchScreen.storyboard in Resources */,
 				F16BADC61FBE985F00CCC311 /* 04b_19.ttf in Resources */,
-				F16D6DD11FBE851400724281 /* Assets.xcassets in Resources */,
 				F16D6DCF1FBE851400724281 /* Main.storyboard in Resources */,
+				F15698141FC4F324000DE985 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

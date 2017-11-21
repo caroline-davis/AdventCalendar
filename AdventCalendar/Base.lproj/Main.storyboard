@@ -287,16 +287,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cwv-kH-fCp">
-                                <frame key="frameInset" minX="20" minY="175" width="335" height="216"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="window_background" translatesAutoresizingMaskIntoConstraints="NO" id="szz-7s-hn8">
+                                <frame key="frameInset" minY="-2" width="375" height="661"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VIDEO TITLE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6GZ-gt-pmz">
-                                <frame key="frameInset" minX="20" minY="69" width="335" height="89"/>
+                                <frame key="frameInset" minX="19" minY="365" width="335" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="25"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.53333333333333333" green="0.74509803921568629" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mhk-FH-YwN">
@@ -305,7 +304,7 @@
                                 </constraints>
                                 <items>
                                     <barButtonItem title="Back" id="Eif-pk-g03">
-                                        <color key="tintColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.52941176469999995" green="0.015686274510000001" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="goToMainVC" destination="18U-ti-2Jd" id="rdn-gJ-IMv"/>
                                             <segue destination="BYZ-38-t0r" kind="show" identifier="ToMainVC" id="kt8-ze-xGc"/>
@@ -313,19 +312,13 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="santa" translatesAutoresizingMaskIntoConstraints="NO" id="fyr-b5-U9w">
-                                <frame key="frameInset" minX="44" minY="479" width="273" height="113"/>
+                            <webView contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cwv-kH-fCp">
+                                <frame key="frameInset" minX="39" minY="131" width="297" height="170"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HAVE AN ANIMATED CHRISTMAS!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOL-G8-A7J">
-                                <frame key="frameInset" minX="41" minY="417" width="293" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="16"/>
-                                <color key="textColor" red="0.58431372550000005" green="0.019607843140000001" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
-                        <color key="backgroundColor" red="0.53333333333333333" green="0.74509803921568629" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="mhk-FH-YwN" secondAttribute="trailing" id="FUf-lz-Qke"/>
                             <constraint firstItem="6rQ-a9-bUG" firstAttribute="top" secondItem="mhk-FH-YwN" secondAttribute="bottom" id="mUq-f5-dMq"/>
@@ -345,7 +338,7 @@
     </scenes>
     <resources>
         <image name="background" width="960" height="1704"/>
-        <image name="santa" width="6343" height="2128"/>
         <image name="stopButton" width="210" height="210"/>
+        <image name="window_background" width="640" height="1136"/>
     </resources>
 </document>
