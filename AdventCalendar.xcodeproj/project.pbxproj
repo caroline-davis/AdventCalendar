@@ -15,7 +15,7 @@
 		F16D6DD11FBE851400724281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16D6DD01FBE851400724281 /* Assets.xcassets */; };
 		F16D6DD41FBE851400724281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16D6DD21FBE851400724281 /* LaunchScreen.storyboard */; };
 		F173ADF71FBEA10200EB8238 /* WindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173ADF61FBEA10200EB8238 /* WindowVC.swift */; };
-		F173ADF91FBEADED00EB8238 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173ADF81FBEADED00EB8238 /* Songs.swift */; };
+		F173ADF91FBEADED00EB8238 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173ADF81FBEADED00EB8238 /* Videos.swift */; };
 		F1A881541FC2A28C003E4DDD /* winterwonderland.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1A881531FC2A28C003E4DDD /* winterwonderland.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 		F16D6DD31FBE851400724281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16D6DD51FBE851400724281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F173ADF61FBEA10200EB8238 /* WindowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowVC.swift; sourceTree = "<group>"; };
-		F173ADF81FBEADED00EB8238 /* Songs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		F173ADF81FBEADED00EB8238 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
 		F1A881531FC2A28C003E4DDD /* winterwonderland.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winterwonderland.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +106,7 @@
 		F173ADFA1FBEADF300EB8238 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				F173ADF81FBEADED00EB8238 /* Songs.swift */,
+				F173ADF81FBEADED00EB8238 /* Videos.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F173ADF91FBEADED00EB8238 /* Songs.swift in Sources */,
+				F173ADF91FBEADED00EB8238 /* Videos.swift in Sources */,
 				F173ADF71FBEA10200EB8238 /* WindowVC.swift in Sources */,
 				F16D6DCC1FBE851400724281 /* MainVC.swift in Sources */,
 				F16D6DCA1FBE851400724281 /* AppDelegate.swift in Sources */,

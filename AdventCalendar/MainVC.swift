@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 
+
 class MainVC: UIViewController {
     
     @IBOutlet weak var musicButton: UIButton!
@@ -19,6 +20,15 @@ class MainVC: UIViewController {
         playMusic()
 
     }
+    
+ 
+    @IBAction func segwayToWindowVC(sender: UIButton) {
+        audioPlayer?.stop()
+        windowNumber = sender.tag
+
+        performSegue(withIdentifier: "ToWindowVC", sender: self)
+    }
+    
  
     func playMusic() {
         let path = Bundle.main.path(forResource: "winterwonderland", ofType:"mp3")!

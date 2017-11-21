@@ -23,13 +23,17 @@ class WindowVC: UIViewController {
     
     func getVideo() {
         
-        var songID: String
+        var videoID: String
         
-        for song in christmasSongs {
-            songID = song["songURL"]!
-            videoTitle.text = song["videoTitle"]!
+        for video in christmasVideos {
             
-            let url = URL(string: "https://player.vimeo.com/video/\(songID)")
+            let chosenWindow = christmasVideos[windowNumber!]
+            
+            
+            videoID = chosenWindow["videoURL"]!
+            videoTitle.text = chosenWindow["videoTitle"]!
+            
+            let url = URL(string: "https://player.vimeo.com/video/\(videoID)")
             webView.loadRequest(URLRequest(url: url!))
 
         }
