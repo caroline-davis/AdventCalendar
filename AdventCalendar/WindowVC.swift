@@ -20,6 +20,8 @@ class WindowVC: UIViewController {
         
         getVideo()
         
+        self.videoTitle.font = UIFont(name: "04b_19", size: 30)
+        
     }
     
     func getVideo() {
