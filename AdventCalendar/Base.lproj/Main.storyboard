@@ -296,10 +296,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mhk-FH-YwN">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back" id="Eif-pk-g03">
+                                        <color key="tintColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="goToMainVC" destination="18U-ti-2Jd" id="rdn-gJ-IMv"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="ToMainVC" id="kt8-ze-xGc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="0.53333333333333333" green="0.74509803921568629" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="back" destination="Eif-pk-g03" id="iu7-IU-zNY"/>
                         <outlet property="videoTitle" destination="6GZ-gt-pmz" id="a69-xs-D7r"/>
                         <outlet property="webView" destination="Cwv-kH-fCp" id="6hj-Fn-oXE"/>
                     </connections>

@@ -11,6 +11,7 @@ import UIKit
 
 class WindowVC: UIViewController {
     
+    @IBOutlet weak var back: UIBarButtonItem!
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var videoTitle: UILabel!
     
@@ -29,14 +30,17 @@ class WindowVC: UIViewController {
             
             let chosenWindow = christmasVideos[windowNumber!]
             
-            
             videoID = chosenWindow["videoURL"]!
             videoTitle.text = chosenWindow["videoTitle"]!
             
             let url = URL(string: "https://player.vimeo.com/video/\(videoID)")
             webView.loadRequest(URLRequest(url: url!))
-
+            
         }
+    }
+    
+    @IBAction func goToMainVC() {
+        performSegue(withIdentifier: "ToMainVC", sender: self)
     }
     
     
