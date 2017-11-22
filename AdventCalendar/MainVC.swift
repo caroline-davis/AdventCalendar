@@ -18,7 +18,7 @@ class MainVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         playMusic()
-
+     
     }
     
  
@@ -56,6 +56,8 @@ class MainVC: UIViewController {
         }
         
     }
+
+    
 
 
 }

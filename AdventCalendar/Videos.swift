@@ -20,7 +20,7 @@ var christmasVideos = [
     ["videoTitle": "Blue Zoo Xmas",
      "videoURL": "82090131"],
     
-    ["videoTitle": "Santa Claus and the Turkish Bath",
+    ["videoTitle": "The Turkish Bath",
      "videoURL": "34129196"],
     
     ["videoTitle": "Bjorns Xmas",
@@ -32,7 +32,7 @@ var christmasVideos = [
     ["videoTitle": "Happy Xmas from Bito",
      "videoURL": "115339272"],
     
-    ["videoTitle": "Merry Christmas from Wednesday Collective",
+    ["videoTitle": "Merry Christmas",
      "videoURL": "82550624"],
     
     ["videoTitle": "A Special Christmas Present",
@@ -41,8 +41,8 @@ var christmasVideos = [
     ["videoTitle": "Merry Christmas",
      "videoURL": "58879652"],
     
-    ["videoTitle": "Christmas Dinner",
-     "videoURL": "h195473587"],
+    ["videoTitle": "Ruldolph's Christmas Party",
+     "videoURL": "115170613"],
     
     ["videoTitle": "Little Frosty the Snowman",
      "videoURL": "196897609"],
@@ -53,14 +53,14 @@ var christmasVideos = [
     ["videoTitle": "Christmas Time",
      "videoURL": "82603590"],
     
-    ["videoTitle": "Rockin around the Christmas Tree",
+    ["videoTitle": "Rockin Around",
      "videoURL": "82788888"],
     
     ["videoTitle": "Christmas is Coming",
      "videoURL": "17521609"],
     
-    ["videoTitle": "The Little Drummer Boy",
-     "videoURL": "80849482"],
+    ["videoTitle": "Xmas Time",
+     "videoURL": "33972392"],
     
     ["videoTitle": "Happy Christmas",
      "videoURL": "56009979"],
@@ -68,14 +68,14 @@ var christmasVideos = [
     ["videoTitle": "Crazy Santa",
      "videoURL": "82527979"],
     
-    ["videoTitle": "Deck the Halls",
-     "videoURL": "20971237"],
+    ["videoTitle": "Santa Split",
+     "videoURL": "149975471"],
     
     ["videoTitle": "The Trouble Makers",
      "videoURL": "196434145"],
     
-    ["videoTitle": "Happy Christmas(War is Over)",
-     "videoURL": "9807153"],
+    ["videoTitle": "Santa's New Sleigh",
+     "videoURL": "82414958"],
     
     ["videoTitle": "The Christmas Trees",
      "videoURL": "17960689"],
