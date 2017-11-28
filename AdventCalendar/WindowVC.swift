@@ -28,7 +28,7 @@ class WindowVC: UIViewController {
         
         var videoID: String
         
-        for video in christmasVideos {
+        for _ in christmasVideos {
             
             let chosenWindow = christmasVideos[windowNumber!]
             
