@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -29,41 +29,41 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OS3-I9-xX7" userLabel="master Stack View">
-                                <rect key="frame" x="24" y="28" width="272" height="444"/>
+                                <rect key="frame" x="24" y="28" width="327" height="631"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="L63-Pd-S6b" userLabel="numbers">
-                                        <rect key="frame" x="0.0" y="0.0" width="272" height="354"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="528"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qFg-28-gfN">
-                                                <rect key="frame" x="20" y="0.0" width="232" height="59"/>
+                                                <rect key="frame" x="38" y="0.0" width="251" height="88"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykl-P9-vtJ" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="3.5" width="54.5" height="52"/>
+                                                        <rect key="frame" x="0.0" y="18" width="59" height="52"/>
                                                         <state key="normal" image="9"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WIH-M5-G7N"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgC-Fc-Azs" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="59.5" y="0.0" width="54" height="59"/>
+                                                        <rect key="frame" x="64" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="1"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tLG-9H-aAx"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzY-rA-sLa" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="118.5" y="0.0" width="54.5" height="59"/>
+                                                        <rect key="frame" x="128" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="4"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Su2-Ca-Fp4"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxm-SG-3wK" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="178" y="0.0" width="54" height="59"/>
+                                                        <rect key="frame" x="192" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="10"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bOt-cd-Kfd"/>
@@ -72,31 +72,31 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2jB-Tq-WYq">
-                                                <rect key="frame" x="20" y="59" width="232" height="59"/>
+                                                <rect key="frame" x="38" y="88" width="251" height="88"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGH-wJ-Old" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="59"/>
+                                                        <rect key="frame" x="0.0" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="15"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofr-Sq-0or"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNp-70-H20" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="59.5" y="3.5" width="54" height="52"/>
+                                                        <rect key="frame" x="64" y="18" width="59" height="52"/>
                                                         <state key="normal" image="22"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DFx-fK-Ji1"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USm-55-J5v" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="118.5" y="0.0" width="54.5" height="59"/>
+                                                        <rect key="frame" x="128" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="3"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TuR-Hw-47y"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FvM-lN-xSs" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="178" y="3.5" width="54" height="52"/>
+                                                        <rect key="frame" x="192" y="18" width="59" height="52"/>
                                                         <state key="normal" image="20"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6oM-uE-c4W"/>
@@ -105,31 +105,31 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nCs-CC-OG9">
-                                                <rect key="frame" x="20" y="118" width="232" height="59"/>
+                                                <rect key="frame" x="38" y="176" width="251" height="88"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlz-9m-Nsc" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="3.5" width="54.5" height="52"/>
+                                                        <rect key="frame" x="0.0" y="18" width="59" height="52"/>
                                                         <state key="normal" image="19"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aYN-r4-AEO"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqF-fH-Lfe" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="59.5" y="0.0" width="54" height="59"/>
+                                                        <rect key="frame" x="64" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="6"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wmo-Xq-QDq"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ym7-mP-0qt" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="118.5" y="0.0" width="54.5" height="59"/>
+                                                        <rect key="frame" x="128" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="17"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RC7-dK-WeU"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lN-vR-sFg" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="178" y="0.0" width="54" height="59"/>
+                                                        <rect key="frame" x="192" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="5"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HFs-1y-3IW"/>
@@ -138,31 +138,31 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4va-Zb-ddZ">
-                                                <rect key="frame" x="20" y="177" width="232" height="59"/>
+                                                <rect key="frame" x="38" y="264" width="251" height="88"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbL-rt-60Q" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="59"/>
+                                                        <rect key="frame" x="0.0" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="11"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P12-yU-uaN"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkI-F5-kK0" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="59.5" y="0.0" width="54" height="59"/>
+                                                        <rect key="frame" x="64" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="14"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ep-3x-QgD"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ6-qi-M95" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="118.5" y="3.5" width="54.5" height="52"/>
+                                                        <rect key="frame" x="128" y="18" width="59" height="52"/>
                                                         <state key="normal" image="23"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0AB-jI-rlY"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWS-MZ-Pdx" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="178" y="0.0" width="54" height="59"/>
+                                                        <rect key="frame" x="192" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="12"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aKj-wV-wYe"/>
@@ -171,31 +171,31 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wpL-Xi-hRn">
-                                                <rect key="frame" x="20" y="236" width="232" height="59"/>
+                                                <rect key="frame" x="38" y="352" width="251" height="88"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nu1-4n-hLE" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="3.5" width="54.5" height="52"/>
+                                                        <rect key="frame" x="0.0" y="18" width="59" height="52"/>
                                                         <state key="normal" image="21"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ol8-nm-Yqf"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eka-PW-6ff" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="59.5" y="3.5" width="54" height="52"/>
+                                                        <rect key="frame" x="64" y="18" width="59" height="52"/>
                                                         <state key="normal" image="24"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="inK-im-ajS"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrA-1o-ihX" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="118.5" y="0.0" width="54.5" height="59"/>
+                                                        <rect key="frame" x="128" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="2"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fRy-cd-YzA"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="17" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Brq-zV-G00" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="178" y="0.0" width="54" height="59"/>
+                                                        <rect key="frame" x="192" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="18"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1wr-IE-wcP"/>
@@ -204,31 +204,31 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nPl-bq-2K0">
-                                                <rect key="frame" x="20" y="295" width="232" height="59"/>
+                                                <rect key="frame" x="38" y="440" width="251" height="88"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srX-lp-znt" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="54.5" height="59"/>
+                                                        <rect key="frame" x="0.0" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="13"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wNV-RO-d9g"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtV-tw-UsB" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="59.5" y="3.5" width="54" height="52"/>
+                                                        <rect key="frame" x="64" y="18" width="59" height="52"/>
                                                         <state key="normal" image="8"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ccK-bT-hU0"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4c-ly-L1C" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="118.5" y="0.0" width="54.5" height="59"/>
+                                                        <rect key="frame" x="128" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="16"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="luV-hN-iYY"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zf0-cO-zMw" customClass="Window" customModule="AdventCalendar" customModuleProvider="target">
-                                                        <rect key="frame" x="178" y="0.0" width="54" height="59"/>
+                                                        <rect key="frame" x="192" y="14.5" width="59" height="59"/>
                                                         <state key="normal" image="7"/>
                                                         <connections>
                                                             <action selector="segwayToWindowVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FkE-oa-ord"/>
@@ -240,10 +240,10 @@
                                         <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="K4h-he-lQ5" userLabel="merry xmas">
-                                        <rect key="frame" x="0.0" y="364" width="272" height="30"/>
+                                        <rect key="frame" x="0.0" y="538" width="327" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Merry Christmas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="and-qe-MQV">
-                                                <rect key="frame" x="0.0" y="0.0" width="272" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="327" height="30"/>
                                                 <fontDescription key="fontDescription" name="04b19" family="04b_19" pointSize="30"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -251,12 +251,14 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="3U5-rn-IRk" userLabel="music button">
-                                        <rect key="frame" x="0.0" y="404" width="272" height="40"/>
+                                        <rect key="frame" x="0.0" y="578" width="327" height="53"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="40" placeholderIntrinsicHeight="53" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWY-bR-cYl">
-                                                <rect key="frame" x="232" y="0.0" width="40" height="40"/>
+                                                <rect key="frame" x="274" y="0.0" width="53" height="53"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="bWY-bR-cYl" secondAttribute="height" multiplier="40:40" id="j51-HY-kPe"/>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="53" id="3ye-Lg-8x7"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="53" id="LA8-sF-mSy"/>
+                                                    <constraint firstAttribute="width" secondItem="bWY-bR-cYl" secondAttribute="height" multiplier="1:1" id="j51-HY-kPe"/>
                                                 </constraints>
                                                 <state key="normal" image="stopButton"/>
                                                 <connections>
@@ -295,15 +297,15 @@
                         <viewControllerLayoutGuide type="bottom" id="6rQ-a9-bUG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="F4F-Ft-geW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="window_background" translatesAutoresizingMaskIntoConstraints="NO" id="szz-7s-hn8">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mhk-FH-YwN">
-                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Back" id="Eif-pk-g03">
@@ -316,12 +318,12 @@
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cwv-kH-fCp">
-                                <rect key="frame" x="33" y="93" width="254" height="125"/>
+                                <rect key="frame" x="39" y="129" width="297" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VIDEO TITLE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6GZ-gt-pmz">
-                                <rect key="frame" x="27" y="257" width="267" height="73"/>
+                                <rect key="frame" x="27" y="375" width="322" height="73"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="25"/>
                                 <color key="textColor" red="0.53333333333333333" green="0.74509803921568629" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
