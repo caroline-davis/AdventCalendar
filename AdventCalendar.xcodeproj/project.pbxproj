@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F15368FB1FE21FAB00FE3D2E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15368FA1FE21FAB00FE3D2E /* VideoView.swift */; };
 		F15698141FC4F324000DE985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15698131FC4F324000DE985 /* Assets.xcassets */; };
 		F16BADC61FBE985F00CCC311 /* 04b_19.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16BADC51FBE985F00CCC311 /* 04b_19.ttf */; };
 		F16BADC81FBE9B3400CCC311 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16BADC71FBE9B3400CCC311 /* Window.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F15368FA1FE21FAB00FE3D2E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		F15698131FC4F324000DE985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16BADC51FBE985F00CCC311 /* 04b_19.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04b_19.ttf; sourceTree = "<group>"; };
 		F16BADC71FBE9B3400CCC311 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				F16BADC71FBE9B3400CCC311 /* Window.swift */,
+				F15368FA1FE21FAB00FE3D2E /* VideoView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15368FB1FE21FAB00FE3D2E /* VideoView.swift in Sources */,
 				F173ADF91FBEADED00EB8238 /* Videos.swift in Sources */,
 				F173ADF71FBEA10200EB8238 /* WindowVC.swift in Sources */,
 				F16D6DCC1FBE851400724281 /* MainVC.swift in Sources */,
